@@ -1,18 +1,6 @@
-ignition-gazebo3 (3.2.0-1~buster) buster; urgency=medium
+ignition-gazebo4 (3.999.999-1~buster) buster; urgency=medium
 
-  * ignition-gazebo3 3.2.0-1 release
+  * Stub to be removed after first entry
 
- -- Nate Koenig <nate@openrobotics.org>  Wed, 21 May 2020 05:20:38 -0700
-
-ignition-gazebo3 (3.1.0-1~buster) buster; urgency=medium
-
-  * ignition-gazebo3 3.1.0-1 release
-
- -- Nate Koenig <nate@openrobotics.org>  Tue, 19 May 2020 07:38:52 -0700
-
-ignition-gazebo3 (3.0.0-1~buster) buster; urgency=medium
-
-  * ignition-gazebo3 3.0.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 11 Dec 2019 00:43:58 +0100
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:41:03 +0200
 
