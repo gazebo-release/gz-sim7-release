@@ -1,18 +1,6 @@
-ignition-gazebo4 (4.0.0-1~bionic) bionic; urgency=medium
-
-  * ignition-gazebo4 4.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 30 Sep 2020 20:18:16 -0700
-
-ignition-gazebo4 (4.0.0~pre1-1~bionic) bionic; urgency=medium
-
-  * ignition-gazebo4 4.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 23 Sep 2020 09:21:50 -0700
-
-ignition-gazebo4 (3.999.999-1~bionic) bionic; urgency=medium
+ignition-gazebo5 (4.999.999-1~bionic) bionic; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:41:03 +0200
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 07 Oct 2020 17:32:56 -0700
 
