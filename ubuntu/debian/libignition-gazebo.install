@@ -1,3 +1,4 @@
 usr/lib/*/*.so.*
+usr/share/ignition/ignition-gazebo[0-99]/*.config
 usr/share/ignition/ignition-gazebo[0-99]/gui/*
 usr/share/ignition/ignition-gazebo[0-99]/worlds/*
