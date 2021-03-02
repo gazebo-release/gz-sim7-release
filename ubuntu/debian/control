@@ -23,7 +23,7 @@ Build-Depends: cmake,
                libignition-sensors5-dev,
                libignition-rendering5-dev,
                libignition-transport10-log-dev,
-               libignition-utils-dev,
+               libignition-utils1-dev,
                libsdformat11-dev
 Vcs-Browser: https://github.com/ignition-release/ign-gazebo5-release
 Vcs-Git: https://github.com/ignition-release/ign-gazebo5-release
@@ -74,7 +74,7 @@ Depends: libtinyxml2-dev,
          libignition-sensors5-dev,
          libignition-rendering5-dev,
          libignition-transport10-log-dev,
-         libignition-utils-dev,
+         libignition-utils1-dev,
          libsdformat11-dev,
          libignition-gazebo5 (= ${binary:Version}),
          libignition-gazebo5-plugins (= ${binary:Version}),
