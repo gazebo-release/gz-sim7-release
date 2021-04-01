@@ -1,24 +1,6 @@
-ignition-gazebo5 (5.0.0-1~buster) buster; urgency=medium
-
-  * ignition-gazebo5 5.0.0-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Wed, 31 Mar 2021 17:39:43 -0700
-
-ignition-gazebo5 (5.0.0~pre1-2~buster) buster; urgency=medium
-
-  * ignition-gazebo5 5.0.0~pre1-2 release
-
- -- Louise Poubel <louise@openrobotics.org>  Fri, 26 Mar 2021 14:47:28 -0700
-
-ignition-gazebo5 (5.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-gazebo5 5.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Fri, 26 Mar 2021 12:01:43 -0700
-
-ignition-gazebo5 (4.999.999-1~buster) buster; urgency=medium
+ignition-gazebo6 (5.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Louise Poubel <louise@openrobotics.org>  Wed, 07 Oct 2020 17:32:56 -0700
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 01 Apr 2021 15:28:07 -0700
 
