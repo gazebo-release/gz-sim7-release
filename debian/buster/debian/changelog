@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.0.0~pre1-1~buster) buster; urgency=medium
+
+  * ignition-gazebo6 6.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 22 Sep 2021 15:57:04 -0700
+
 ignition-gazebo6 (5.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
