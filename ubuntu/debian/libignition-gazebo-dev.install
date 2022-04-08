@@ -2,7 +2,7 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-gazebo*/*
-usr/share/ignition/ignition-gazebo[0-99]/ignition-gazebo[0-99].tag.xml
+# usr/share/ignition/ignition-gazebo[0-99]/ignition-gazebo[0-99].tag.xml
 usr/share/ignition/gazebo[0-99].yaml
 usr/share/ignition/model[0-99].yaml
 usr/lib/ruby/ignition/cmdgazebo[0-99].rb
