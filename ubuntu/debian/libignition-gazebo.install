@@ -2,3 +2,5 @@ usr/lib/*/*.so.*
 usr/share/ignition/ignition-gazebo[0-99]/*.config
 usr/share/ignition/ignition-gazebo[0-99]/gui/*
 usr/share/ignition/ignition-gazebo[0-99]/worlds/*
+obj-*/gz-logo[0-99].svg usr/share/icons/hicolor/scalable/apps/
+obj-*/gz-sim[0-99].desktop usr/share/applications/
