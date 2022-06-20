@@ -1,1 +1,1 @@
-usr/lib/*/ign-gazebo-[0-99]/plugins/*
+usr/lib/*/+(ign|gz)-+(gazebo|sim)-[0-99]/plugins/*

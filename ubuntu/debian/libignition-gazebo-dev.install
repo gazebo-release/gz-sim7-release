@@ -1,9 +1,9 @@
 usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/ignition-gazebo*/*
-# usr/share/ignition/ignition-gazebo[0-99]/ignition-gazebo[0-99].tag.xml
-usr/share/ignition/gazebo[0-99].yaml
-usr/share/ignition/model[0-99].yaml
-usr/lib/ruby/ignition/cmdgazebo[0-99].rb
-usr/lib/ruby/ignition/cmdmodel[0-99].rb
+usr/lib/*/cmake/+(ignition|gz)-+(gazebo|sim)*/*
+# usr/share/+(ignition|gz)/+(ignition|gz)-+(gazebo|sim)[0-99]/+(ignition|gz)-+(gazebo|sim)[0-99].tag.xml
+usr/share/+(ignition|gz)/+(gazebo|sim)[0-99].yaml
+usr/share/+(ignition|gz)/model[0-99].yaml
+usr/lib/ruby/+(ignition|gz)/cmdgazebo[0-99].rb
+usr/lib/ruby/+(ignition|gz)/cmdmodel[0-99].rb
