@@ -1,6 +1,6 @@
 usr/lib/*/*.so.*
-usr/share/*/*-+(gazebo|sim)[0-99]/*.config
-usr/share/*/*-+(gazebo|sim)[0-99]/gui/*
-usr/share/*/*-+(gazebo|sim)[0-99]/worlds/*
+usr/share/ignition/*-*[0-99]/*.config
+usr/share/ignition/*-*[0-99]/gui/*
+usr/share/ignition/*-*[0-99]/worlds/*
 obj-*/gz-logo[0-99].svg usr/share/icons/hicolor/scalable/apps/
 obj-*/gz-sim[0-99].desktop usr/share/applications/
