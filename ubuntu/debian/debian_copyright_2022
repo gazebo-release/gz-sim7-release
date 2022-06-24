@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignition-gazebo
-Upstream-Contact: https://github.com/ignitionrobotics/ign-gazebo/issues
-Source: https://github.com/ignitionrobotics/ign-gazebo
+Upstream-Name: gz-sim
+Upstream-Contact: https://github.com/gazebosim/gz-sim/issues
+Source: https://github.com/gazebosim/gz-sim
 Comment: All the test *.dae *.obj files are non-free: CC NonCommercial
 Files-Excluded: .github
                 NEWS

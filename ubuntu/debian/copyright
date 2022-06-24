@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignition_gazebo
+Upstream-Name: gz-sim
 Upstream-Contact: gazebo-list@gazebosim.org
-Source: https://bitbucket.org/osrf/ignition_gazebo
+Source: https://github.com/gazebosim/gz-sim
 
 Files: *
 Copyright: 2013 Open Source Robotics Foundation
