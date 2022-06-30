@@ -1,4 +1,4 @@
-Source: ignition-gazebo7
+Source: gz-sim7
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -34,7 +34,7 @@ Vcs-Git: https://github.com/gazebo-release/gz-sim7-release
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libignition-gazebo7
+Package: libgz-sim7
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -48,7 +48,7 @@ Description: Gazebo Sim classes and functions for robot apps - Shared library
  .
  Main shared library
 
-Package: libignition-gazebo7-plugins
+Package: libgz-sim7-plugins
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -60,7 +60,7 @@ Description: Gazebo Sim classes and functions for robot apps - Plugins
  .
  Plugins collection
 
-Package: libignition-gazebo7-dev
+Package: libgz-sim7-dev
 Architecture: any
 Section: libdevel
 Depends: libtinyxml2-dev,
@@ -92,7 +92,7 @@ Description: Gazebo Sim classes and functions for robot apps - Development files
  .
  Development files
 
-Package: python3-ignition-gazebo7
+Package: python3-gz-sim7
 Architecture: any
 Depends: libignition-gazebo7 (= ${binary:Version}),
          python3-distutils,
@@ -107,7 +107,7 @@ Description: Gazebo Sim classes and functions for robot apps - Development files
  .
  The package contains the Python3 bindings.
 
-Package: libignition-gazebo7-dbg
+Package: libgz-sim7-dbg
 Architecture: any
 Section: debug
 Priority: extra
@@ -120,3 +120,43 @@ Description: Gazebo Sim classes and functions for robot apps - Debug symbols
  designed to rapidly develop robot applications.
  .
  Debug symbols
+
+Package: libignition-gazebo7
+Depends: libgz-sim7, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-gazebo7-plugins
+Depends: libgz-sim7-plugins, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-gazebo7-dev
+Depends: libgz-sim7-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: python3-ignition-gazebo7
+Depends: python3-gz-sim7, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: libignition-gazebo7-dbg
+Depends: libgz-sim7-dbg, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
