@@ -82,8 +82,8 @@ Depends: libtinyxml2-dev,
          libignition-utils2-cli-dev,
          libignition-utils2-dev,
          libsdformat13-dev,
-         libignition-gazebo7 (= ${binary:Version}),
-         libignition-gazebo7-plugins (= ${binary:Version}),
+         libgz-sim7 (= ${binary:Version}),
+         libgz-sim7-plugins (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Sim classes and functions for robot apps - Development files
