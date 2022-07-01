@@ -102,7 +102,7 @@ Description: Gazebo Sim classes and functions for robot apps - Development files
 
 Package: python3-gz-sim7
 Architecture: any
-Depends: libgz-gazebo7 (= ${binary:Version}),
+Depends: libgz-sim7 (= ${binary:Version}),
          python3-distutils,
          python3-pybind11,
          ${misc:Depends},
@@ -122,7 +122,7 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libgz-gazebo7 (= ${binary:Version}),
+     libgz-sim7 (= ${binary:Version}),
      ${misc:Depends}
 Breaks: libignition-gazebo7-dbg (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 Replaces: libignition-gazebo7-dbg (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
