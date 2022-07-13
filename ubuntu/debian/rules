@@ -18,11 +18,11 @@ override_dh_auto_configure:
 
 override_dh_install:
 	dh_install --
-	$(RM) debian/ignition-gazebo*/usr/share/ignition/ignition-gazebo*/ignition-gazebo*.tag.xml
+	$(RM) debian/gz-sim*/usr/share/gz/gz-sim*/gz-sim*.tag.xml
 
 override_dh_auto_test:
 	# failing tests needs inspection
 	true
 
 override_dh_strip:
-	dh_strip -a --dbg-package=libignition-gazebo7-dbg
+	dh_strip -a --dbg-package=libgz-sim7-dbg

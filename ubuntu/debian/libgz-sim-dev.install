@@ -2,8 +2,8 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/*-*/*
-# usr/share/ignition/*-*[0-99]/*-*[0-99].tag.xml
-usr/share/ignition/*[0-99].yaml
-usr/share/ignition/model[0-99].yaml
+# usr/share/gz/*-*[0-99]/*-*[0-99].tag.xml
+usr/share/gz/*[0-99].yaml
+usr/share/gz/model[0-99].yaml
 usr/lib/ruby/*/cmdsim[0-99].rb
 usr/lib/ruby/*/cmdmodel[0-99].rb
