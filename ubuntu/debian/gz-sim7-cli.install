@@ -1,0 +1,4 @@
+usr/lib/ruby/gz/*.rb
+usr/share/*/*[0-99].yaml
+usr/share/*/model[0-99].yaml
+usr/share/gz/*.completion*/*
