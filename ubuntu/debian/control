@@ -43,6 +43,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtqml-models2
+Suggests: gz-sim7-cli
 Breaks: libignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 Replaces: libignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 Multi-Arch: same
@@ -51,6 +52,18 @@ Description: Gazebo Sim classes and functions for robot apps - Shared library
  designed to rapidly develop robot applications.
  .
  Main shared library
+
+Package: gz-sim7-cli
+Architecture: any
+Depends: libgz-sim7 (= ${binary:Version}),
+         ${shlibs:Depends},
+         ${misc:Depends}
+Multi-Arch: no
+Description: Gazebo Sim classes and functions for robot apps - CLI
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ The package ships the CLI.
 
 Package: libgz-sim7-plugins
 Architecture: any
@@ -135,6 +148,14 @@ Description: Gazebo Sim classes and functions for robot apps - Debug symbols
 
 Package: libignition-gazebo7
 Depends: libgz-sim7, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: ignition-gazebo7-cli
+Depends: gz-sim7-cli, ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: oldlibs
