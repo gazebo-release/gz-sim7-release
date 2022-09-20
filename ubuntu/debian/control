@@ -27,8 +27,6 @@ Build-Depends: cmake,
                libsdformat13-dev,
                python3-dev,
                python3-pybind11
-Breaks: ignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
-Replaces: ignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 # doxygen and grapviz are excluded per bug:
 # https://github.com/gazebosim/gz-sim/issues/1409
 Vcs-Browser: https://github.com/gazebosim/gz-sim
