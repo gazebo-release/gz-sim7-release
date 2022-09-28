@@ -43,7 +43,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtqml-models2
-Suggests: gz-sim7-cli
+Recommends: gz-sim7-cli
 Breaks: libignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 Replaces: libignition-gazebo7 (<< 6.999.999+nightly+git20220630+2rcb61c01f8894e4f435f544d3511f346eaa753142-2)
 Multi-Arch: same
