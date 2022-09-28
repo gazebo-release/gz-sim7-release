@@ -1,3 +1,9 @@
+gz-sim7 (7.0.0-1~jammy) jammy; urgency=medium
+
+  * gz-sim7 7.0.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 27 Sep 2022 05:05:33 -0700
+
 gz-sim7 (7.0.0~pre1-2~jammy) jammy; urgency=medium
 
   * gz-sim7 7.0.0~pre1-2 release
