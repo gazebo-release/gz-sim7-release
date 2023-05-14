@@ -1,3 +1,9 @@
+gz-sim7 (7.5.0-1~jammy) jammy; urgency=medium
+
+  * gz-sim7 7.5.0-1 release
+
+ -- Michael Carroll <michael@openrobotics.org>  Sun, 14 May 2023 07:53:48 -0500
+
 gz-sim7 (7.4.0-1~jammy) jammy; urgency=medium
 
   * gz-sim7 7.4.0-1 release
