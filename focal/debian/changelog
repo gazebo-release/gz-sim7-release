@@ -1,3 +1,9 @@
+gz-sim7 (7.7.0-1~focal) focal; urgency=medium
+
+  * gz-sim7 7.7.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 18 Jan 2024 16:33:35 -0600
+
 gz-sim7 (7.6.0-1~focal) focal; urgency=medium
 
   * gz-sim7 7.6.0-1 release
