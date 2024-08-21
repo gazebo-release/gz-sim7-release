@@ -1,3 +1,9 @@
+gz-sim7 (7.9.0-1~jammy) jammy; urgency=medium
+
+  * gz-sim7 7.9.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Wed, 21 Aug 2024 22:30:28 +0000
+
 gz-sim7 (7.8.0-1~jammy) jammy; urgency=medium
 
   * gz-sim7 7.8.0-1 release
